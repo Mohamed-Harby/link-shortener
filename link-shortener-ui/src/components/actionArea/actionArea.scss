@@ -1,0 +1,40 @@
+.action-area {
+    position: relative;
+    margin-top: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .action-box {
+        background-color: #ffffff;
+        padding: 16px;
+        border-radius: 17px;
+        border: dashed 2px #e2e2e2;
+        input[type=url] {
+            width: 500px;
+            color: #272727;
+            font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+            padding: 10px;
+            font-size: 1.2rem;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            background-color: #fff;
+        }
+        button {
+            background-color: #a084f3;
+            padding: 10px;
+            outline: none;
+            border: none;
+            color: #fff;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            user-select: none;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

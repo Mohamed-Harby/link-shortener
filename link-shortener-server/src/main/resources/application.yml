@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: linkshortener
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/link-shortener?createDatabaseIfNotExist=true
+    username: mohamed-harby
+    password: MySql12Password@
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/link-shortener-db
+
+logging:
+  level:
+    org:
+      hibernate: info
+      hibernate.SQL: debug
+
+springdoc:
+  swagger-ui:
+    path: /api/swagger.html
+
+server:
+  port: 8085
+
+

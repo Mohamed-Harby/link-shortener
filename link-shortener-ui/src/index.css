@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+    &::selection {
+        color: #f3e306;
+        background-color: #a084f3;
+    }
+}
+
+.yel {
+    display: inline;
+    color: #f3e306;
+}
